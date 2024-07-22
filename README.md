@@ -1,5 +1,5 @@
 # Programación Orientada a Objetos
-**Grupo **
+**Grupo**
 - M.I. García Fragoso Nestor Abdy
 
 ## Modalidad: Curso teórico-práctico
