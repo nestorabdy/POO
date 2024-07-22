@@ -7,7 +7,7 @@
 El alumno construirá programas con el paradigma orientado a objetos, así como el diseño de abstracciones
 para apoyar el diseño de software y bibliotecas reusables, empleando un enfoque de pruebas sistemático.
 
-## :bookmark_tabs: Temas del curso
+## :bullseye: Temas del curso
 - [`Tema 1` El paradigma orientado a objetos ](./Tema%1)
 - [`Tema 2` UML ](./Postwork%2002)
 - [`Tema 3` Tipos, expresiones y control de flujo](./Postwork%2003)
