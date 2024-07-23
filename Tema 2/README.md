@@ -7,5 +7,5 @@ El alumno clasificará las diferentes vistas en el diseño orientado a objetos p
 
 **UML** *(Unified Modeling Language)* es un lenguaje que permite modelar, construir y documentar los elementos que forman un sistema software orientado a objetos.
 
-![Logo UML.](https://github.com/nestorabdy/POO/blob/main/Tema%202/imagenes/UML_logo.png){height=250px}
+![Logo UML.](https://github.com/nestorabdy/POO/blob/main/Tema%202/imagenes/UML_logo.png){height=100px}
 
