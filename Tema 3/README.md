@@ -209,7 +209,9 @@ Los modificadores static y final tienen contextos completamente distintos.
 
 **static**
 
-El modificador static implica que algo se define en el contexto general, no en un contexto de un objeto. Sin este modificador, variables, clases o campos siempre existen en el contexto de una instancia de un objeto en particular.
+Los atributos miembros de una clase pueden ser atributos de clase o atributos de instancia; se dice que son atributos de clase si se usa la palabra clave static: en ese caso la variable es única para todas las instancias (objetos) de la clase (ocupa un único lugar en
+memoria). A veces a las variables de clase se les llama variables estáticas. Si no se usa static, el sistema crea un lugar nuevo para esa variable con cada instancia (la variable es diferente para cada objeto). En el caso de una constante no tiene sentido crear un nuevo lugar de memoria por cada objeto de una clase que se cree. Por ello es adecuado el uso de la palabra clave static.
+Cuando usamos “static final” se dice que creamos una constante de clase, un atributo común a todos los objetos de esa clase. 
 
 - Campos definidos static son variables globales.
 - Métodos definidos static son funciones globales.
