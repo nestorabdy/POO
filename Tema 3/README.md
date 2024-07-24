@@ -129,11 +129,54 @@ Ejemplo de conversión explícita
     System.outprintln(bDato); 
     // resultado : 2
 
+### Operadores
 
+Los operadores son símbolos que indican cómo son manipulados los datos.
+
+### Operadores aritméticos
+
+Los operadores aritméticos se utilizan para realizar operaciones matemáticas.
+
+| Operador | Descripción | Sintaxis |
+|----------|-------------|-|
+| + | Suma | a+b |
+| - | Resta | a-b |
+| * | Multiplicación | a*b |
+| / | División | a/b |
+| % | Modulo | a%b |
+
+### Operadores lógicos
+
+Los operadores lógicos se utilizan para realizar operaciones lógicas en valores booleanos. 
+
+| Operador | Descripción | 
+|----------|-------------|
+| and (&&) | Da como resultado true si al evaluar cada uno de los operandos el resultado es true. |
+| or (\|\|) | El resultado es false si al evaluar cada uno de los operandos el resultado es false. |
+| not (!) | El resultado de aplicar este operador es false si al evaluar su operando el resultado es true, y true en caso contrario. | 
+| xor (^)| Da como resultado true si al evaluar cada uno de los operandos el resultado de uno es true y el del otro false; en otro caso el resultado es false. |
+
+Los operadores lógicos incluyen AND lógico (&&), OR lógico (||) y NOT lógico (!).
+### Operadores a nivel de bits
+
+### Opreadores relacionales
+Los operadores relacionales se utilizan para comparar valores. Equivale a una pregunta relativa a cómo son dos operandos entre sí.
+
+| Operador | Descripción | Sintaxis |
+|----------|-------------|-|
+| == | igualdad | a==b |
+| != | desigualdad | a!=b |
+| > | mayor que | a>b |
+| < | menor que | a<b |
+| >= | mayor o igual que | a>=b |
+| <= | mayor o igual que | a<=b |
+
+
+### Operaciones de asignación
 
 ## Arreglos
 
-## Tipos y ambitos de las variables
+## Tipos y ámbitos de las variables
 
 ## Tipos de clases
 
