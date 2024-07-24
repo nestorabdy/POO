@@ -216,7 +216,7 @@ Cuando usamos “static final” se dice que creamos una constante de clase, un 
 - Clases interiores declaradas static funcionan como clases normales, pueden ser instados desde fuera de la clase que los contienen y no tienen el mismo acceso a variables y métodos de objetos instados de la clase contenedora.
 final
 
-**Final** 
+**final** 
 
 En general significa inmutable. Hay dos usos principales:
 
