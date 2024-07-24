@@ -88,8 +88,18 @@ Los atributos son información asociada a cada objeto. Los atributos son privado
 
 ### Tipos de datos primitivos
 
+Java es un lenguaje de tipado estático. Es decir, se define el tipo de dato de la variable a la hora de definir esta. Es por ello que todas las variables tendrán un tipo de dato asignado.
 
-
+| Tipo de dato | Tamaño en bits | Valores | Valor por defetco |
+|--------------|----------------|---------|-------------------|
+| boolean | 1 | true / false | false |
+| char | 16 | '\u0000 ' a '\uFFFF ' | \u0000 |
+| byte | 8 | -127 a 128 | 0 |
+| short | 16 |  -32.768 a 32.767 | 0 |
+| int | 32 | -2^31 a 2^{31}-1 | 0 |
+| long | 64 | -2^31 a 2^{31}-1 | 0L |
+| float | 32 | -2^31 a 2^{31}-1 | 0.0f |
+| double | 64 | -2^31 a 2^{31}-1 | 0.0d |
 ## Arreglos
 
 ## Tipos y ambitos de las variables
