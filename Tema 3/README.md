@@ -202,8 +202,6 @@ El resultado de una operación de asignación es el valor almacenado en el opera
 | \|= | Operación OR sobre bits más asignación |
 | ^= | Operación XOR sobre bits más asignación |
 
-## Arreglos
-
 ## Tipos y ámbitos de las variables
 Los modificadores static y final tienen contextos completamente distintos.
 
@@ -218,15 +216,18 @@ Cuando usamos “static final” se dice que creamos una constante de clase, un 
 - Clases interiores declaradas static funcionan como clases normales, pueden ser instados desde fuera de la clase que los contienen y no tienen el mismo acceso a variables y métodos de objetos instados de la clase contenedora.
 final
 
-**Final** en general significa inmutable. Hay dos usos principales:
+**Final** 
+
+En general significa inmutable. Hay dos usos principales:
 
 - Variables declaradas como final no pueden ser sobreescritas. Eso no significa que un objeto que fue asignado a una variable final no puede ser modificado en sus campos o por sus métodos, solamente significa que la referencia de esta variable a este mismo objeto nunca cambiará.
 
 - Clases declaradas como final no pueden ser usadas como superclases. String por ejemplo es una clase definido como final, así no es posible de declarar un MegaString extends String - Java no lo permite. En forma parecida, métodos declarados como final no pueden ser sobreescritos.
 
-
 ## Tipos de clases
 
-## Estruturas de selección
+## Arreglos
+
+## Estructuras de selección
 
 ## Estructuras de repetición
