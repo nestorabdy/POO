@@ -12,7 +12,8 @@ El alumno aplicará las técnicas y herramientas de la programación orientada a
 
 En el lenguaje de programación Java, una **palabra reservada** es cualquiera de las 50 palabras exlusivas que tienen un significado predefinido en el lenguaje; debido a esto, no se pueden usar palabras reservadas como nombres para variables, métodos, clases o como cualquier otro identificador.
 
-| 	| 	| 	     | 	     |        |
+| Palabras  | Reservadas| 	         | 	         |              |
+|-----------|-----------|------------|-----------|--------------|
 | abstract	| continue	| for	     | new	     | switch       |
 | assert	| default	| goto	     | package	 | synchronized |
 | boolean	| do	    | if	     | private	 | this         |
