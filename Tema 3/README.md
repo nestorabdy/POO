@@ -61,9 +61,27 @@ Un comentario que comienza con **//** se llama **comentario de fin de línea** (
 
 ### Descripción de una clases y objetos
 
+Desde la POO un programa es un conjunto de objetos que dialogan entre sí para realizar las distintas tareas programadas.
 
+| Una **clase** es una plantilla para crear objetos.
+
+| Un **objeto** es una instancia de una clase.
+
+La clase puede tener un método llamado **constructor** que se va a llamar cada vez que se cree un objeto de esa clase. El constructor se utiliza generalmente para inicializar los atributos de los objetos. Un constructor se distingue fácilmente porque tiene el mismo nombre que la clase a la que pertenece y no puede retornar un valor (ni siquiera se puede especificar la palabra reservada void).
+
+En la clase se pueden definir métodos (el comportamiento) y atributos (información) que van a tener los objetos. A los atributos se les llama variables de instancia y a los métodos se les llama métodos de instancia.
+
+Un método determina cómo tiene que actuar el objeto cuando recibe el mensaje vinculado con ese método.
+
+Los atributos son información asociada a cada objeto. Los atributos son privados y solo pueden ser leídos y modificados dentro del objeto, a menos de que existan métodos para leerlos y modificarlos.
+
+| Un atributo puede ser una un objeto de otra clase y puede acceder a sus métodos.
  
 ## Tipos de datos
+
+### Tipos de datos primitivos
+
+
 
 ## Arreglos
 
