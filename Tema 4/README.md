@@ -172,43 +172,39 @@ Para crear constructores en Java, sigue estos pasos básicos:
 
 ## Encapsulamiento
 
-Qué es la encapsulación en Java
-La encapsulación en Java es un principio fundamental de la POO que consiste en agrupar los datos (atributos) y los métodos (comportamientos) relacionados con un objeto dentro de una sola unidad, llamada clase. Además, se controla el acceso a estos datos y métodos, permitiendo únicamente interacciones controladas desde el exterior de la clase.
+El encapsulamiento en Java es un principio fundamental de la POO que consiste en agrupar los datos (atributos) y los métodos (comportamientos) relacionados con un objeto dentro de una sola unidad, llamada clase. Además, se controla el acceso a estos datos y métodos, permitiendo únicamente interacciones controladas desde el exterior de la clase.
 
 La encapsulación permite ocultar la complejidad interna de una clase, proporcionando una interfaz controlada para interactuar con los objetos de esa clase. Esto mejora la seguridad y la integridad de los datos, ya que solo se pueden modificar a través de métodos específicos de la clase, permitiendo así una validación adecuada antes de realizar cualquier cambio.
 
-Un ejemplo común de encapsulación en Java es tener atributos privados y proporcionar métodos públicos de acceso, conocidos como “getters” y “setters”, para leer y modificar esos atributos de forma controlada. Este enfoque garantiza que el acceso a los datos sea a través de métodos que puedan aplicar validaciones o lógica adicional antes de realizar cualquier modificación.
+Un ejemplo común de encapsulación en Java es tener atributos privados y proporcionar métodos públicos de acceso, conocidos como *get()* y *set()*, para leer y modificar esos atributos de forma controlada. Este enfoque garantiza que el acceso a los datos sea a través de métodos que puedan aplicar validaciones o lógica adicional antes de realizar cualquier modificación.
 
-Conceptos esenciales del encapsulamiento
-Para lograr la encapsulación en Java, se utilizan modificadores de acceso, como “public”, “private” y “protected”, para determinar qué partes del código pueden acceder y modificar los atributos y métodos de una clase.
+Para lograr la encapsulación en Java, se utilizan modificadores de acceso, como *public*, *private* y *protected*, para determinar qué partes del código pueden acceder y modificar los atributos y métodos de una clase.
 
-Public: Los miembros (atributos y métodos) marcados como públicos son accesibles desde cualquier parte del programa. No existen restricciónes en su acceso.
-Private: Los miembros marcados como privados solo son accesibles dentro de la misma clase. Otros objetos o clases no pueden acceder directamente a ellos.
-Protected: Los miembros marcados como protegidos son accesibles dentro del mismo paquete y también por clases derivadas (herencia) fuera del paquete.
-A través del encapsulamiento, se puede lograr la inmutabilidad de ciertos atributos de una clase. Al marcar un atributo como privado y proporcionar solo un método de lectura (getter), se evita que dicho atributo sea modificado accidental o intencionalmente desde fuera de la clase.
+**Public**: Los miembros (atributos y métodos) marcados como públicos son accesibles desde cualquier parte del programa. No existen restricciónes en su acceso.
+**Private**: Los miembros marcados como privados solo son accesibles dentro de la misma clase. Otros objetos o clases no pueden acceder directamente a ellos.
+**Protected**: Los miembros marcados como protegidos son accesibles dentro del mismo paquete y también por clases derivadas (herencia) fuera del paquete.
+A través del encapsulamiento, se puede lograr la inmutabilidad de ciertos atributos de una clase. Al marcar un atributo como privado y proporcionar solo un método de lectura (get), se evita que dicho atributo sea modificado accidental o intencionalmente desde fuera de la clase.
 
-Por otro lado, el encapsulamiento mejora la integridad y validación de datos, ya que los métodos “setters” pueden incluir lógica de validación para asegurar que los datos ingresados cumplan ciertos criterios. Esto garantiza la integridad de los datos almacenados en los atributos de la clase.
-
-Beneficios del encapsulamiento en Java
+Ventajas del encapsulamiento en Java
 El encapsulamiento en Java ofrece una serie de beneficios que son fundamentales para el desarrollo de software de calidad. Entre ellos podemos destacar los siguientes:
 
-Seguridad de datos: Al marcar los atributos como privados, se protegen de accesos no autorizados desde fuera de la clase. Esto evita que los datos se corrompan o modifiquen de manera inesperada, mejorando la seguridad y la integridad del programa.
-Control de acceso: Java permite establecer niveles de acceso a los miembros de una clase, como public, private y protected. Esto controla quién puede acceder a los atributos y métodos de la clase, permitiendo un acceso controlado y seguro.
-Abstracción: La encapsulación permite ocultar los detalles de implementación de una clase y proporcionar una interfaz pública clara y coherente. Esto facilita la interacción con la clase y reduce la complejidad para otros desarrolladores que utilizan la clase.
-Flexibilidad: A través de los métodos “setters” y “getters”, puedes agregar lógica personalizada para validar y transformar los datos antes de su acceso o modificación. Esto brinda flexibilidad para adaptar y modificar la clase sin afectar a otros componentes del programa.
-Mantenibilidad: El encapsulamiento mejora la mantenibilidad del código al permitir cambios internos en la clase sin afectar a las partes que interactúan con ella. Esto facilita las actualizaciones y correcciones de errores sin riesgo de efectos secundarios no deseados.
-Reutilización de código: Las clases encapsuladas se pueden utilizar en diferentes partes de una aplicación o incluso en proyectos diferentes. Esto fomenta la reutilización de código, ya que una vez que se ha creado una clase bien encapsulada, es fácil de integrar en otros contextos.
-El encapsulamiento en Java se ha convertido en algo esencial para crear programas robustos y seguros. Proporciona un alto nivel de control sobre el acceso a los datos y comportamientos de una clase, al tiempo que promueve la modularidad y la reutilización de código, lo que facilita el desarrollo y el mantenimiento del software.
+- **Seguridad de datos**: Al marcar los atributos como privados, se protegen de accesos no autorizados desde fuera de la clase. Esto evita que los datos se corrompan o modifiquen de manera inesperada, mejorando la seguridad y la integridad del programa.
+- **Control de acceso**: Java permite establecer niveles de acceso a los miembros de una clase, como public, private y protected. Esto controla quién puede acceder a los atributos y métodos de la clase, permitiendo un acceso controlado y seguro.
+- **Abstracción**: La encapsulación permite ocultar los detalles de implementación de una clase y proporcionar una interfaz pública clara y coherente. Esto facilita la interacción con la clase y reduce la complejidad para otros desarrolladores que utilizan la clase.
+- **Flexibilidad**: A través de los métodos “setters” y “getters”, puedes agregar lógica personalizada para validar y transformar los datos antes de su acceso o modificación. Esto brinda flexibilidad para adaptar y modificar la clase sin afectar a otros componentes del programa.
+- **Mantenibilidad**: El encapsulamiento mejora la mantenibilidad del código al permitir cambios internos en la clase sin afectar a las partes que interactúan con ella. Esto facilita las actualizaciones y correcciones de errores sin riesgo de efectos secundarios no deseados.
+- **Reutilización de código**: Las clases encapsuladas se pueden utilizar en diferentes partes de una aplicación o incluso en proyectos diferentes. Esto fomenta la reutilización de código, ya que una vez que se ha creado una clase bien encapsulada, es fácil de integrar en otros contextos.
+
 
 Mecanismos para el encapsulamiento
 Para implementar encapsulamiento en Java, sigue estos pasos clave que implican el uso de modificadores de acceso, métodos de acceso (getters y setters) y constructores:
 
-Define la clase que encapsulará los datos y métodos relacionados. En esta clase, declara los atributos que representan los datos y los métodos que operarán sobre esos datos.
-Utiliza modificadores de acceso para controlar la visibilidad de los atributos y métodos. Es buena práctica mantener los atributos como privados (private) para ocultarlos del exterior de la clase.
-Crea métodos públicos (getters) para obtener los valores de los atributos y métodos públicos (setters) para modificar estos valores. Estos métodos deben permitir un acceso controlado a los atributos privados.
-Implementa un constructor para inicializar los atributos de la clase. Puedes tener varios constructores con diferentes parámetros para proporcionar flexibilidad en la inicialización, como vimos en el artículo de Objetos y Clases.
+1. Definir la clase que encapsulará los datos y métodos relacionados. En esta clase, declara los atributos que representan los datos y los métodos que operarán sobre esos datos.
+2. Utilizar modificadores de acceso para controlar la visibilidad de los atributos y métodos. Es buena práctica mantener los atributos como privados (private) para ocultarlos del exterior de la clase.
+3. Crear métodos públicos para obtener los valores de los atributos y métodos públicos para modificar estos valores. Estos métodos deben permitir un acceso controlado a los atributos privados.
+4. Implementar un constructor para inicializar los atributos de la clase. Puedes tener varios constructores con diferentes parámetros para proporcionar flexibilidad en la inicialización, como vimos en el artículo de Objetos y Clases.
+
 Ejemplos prácticos con encapsulamiento
-A continuación, te mostramos un ejemplo de cómo implementar encapsulamiento en Java:
 
       public class Persona {
           // Atributos privados
