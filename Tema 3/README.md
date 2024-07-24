@@ -156,8 +156,18 @@ Los operadores lógicos se utilizan para realizar operaciones lógicas en valore
 | not (!) | El resultado de aplicar este operador es false si al evaluar su operando el resultado es true, y true en caso contrario. | 
 | xor (^)| Da como resultado true si al evaluar cada uno de los operandos el resultado de uno es true y el del otro false; en otro caso el resultado es false. |
 
-Los operadores lógicos incluyen AND lógico (&&), OR lógico (||) y NOT lógico (!).
 ### Operadores a nivel de bits
+
+Estos operadores permiten realizar con sus operandos las operaciones AND, OR, XOR y desplazamientos, bit por bit. Los operandos tienen que ser enteros.
+
+| Operador | Descripción | 
+|----------|-------------|
+| & | Operación AND a nivel de bits. 
+| \| | Operación OR a nivel de bits (carácter ASCII 124). |
+| \^ | Operación XOR a nivel de bits. |
+| \<\< | Desplazamiento a la izquierda rellenando con ceros por la derecha. | 
+| \>\> | Desplazamiento a la derecha rellenando con el bit de signo por la izquierda. |
+| \>\>\> | Desplazamiento a la derecha rellenando con ceros por la izquierda. |
 
 ### Opreadores relacionales
 Los operadores relacionales se utilizan para comparar valores. Equivale a una pregunta relativa a cómo son dos operandos entre sí.
@@ -173,6 +183,26 @@ Los operadores relacionales se utilizan para comparar valores. Equivale a una pr
 
 
 ### Operaciones de asignación
+
+El resultado de una operación de asignación es el valor almacenado en el operando izquierdo, lógicamente después de que la asignación se ha realizado. El valor que se asigna es convertido implícita o explícitamente al tipo del operando de la izquierda
+
+| Operador | Descripción | 
+|----------|-------------|
+| ++ | Incremento |
+| –– | Decremento |
+| =  |Asignación simple |
+| *= | Multiplicación más asignación |
+| /= | División más asignación. %= Módulo más asignación |
+| += | Suma más asignación |
+| –= | Resta más asignación |
+| \<\<= | Desplazamiento a izquierdas más asignación |
+| \>\>= | Desplazamiento a derechas más asignación |
+| \>\>\>= | Desplazamiento a derechas más asignación rellenando con ceros |
+| &= | Operación AND sobre bits más asignación |
+| \|= | Operación OR sobre bits más asignación |
+| ^= | Operación XOR sobre bits más asignación |
+
+Fco. Javier Ceballos Sierra. Java 2. Curso de Programación. 4ª edición (Profesional) (Spanish Edition) . Edición de Kindle. 
 
 ## Arreglos
 
