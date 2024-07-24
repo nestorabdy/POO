@@ -109,9 +109,27 @@ En este grupo están incluidas las clases, las interfaces y las matrices.
 
 Cuando se trate de una asignación, convierte el valor de la derecha al tipo de la variable de la izquierda siempre que no haya pérdida de información. En otro caso, Java exige que la conversión se realice explícitamente.
 
+![]()<img src="/imagenes/32_a.jpg">
+
+
 Java permite una conversión explícita (conversión forzada) del tipo de una expresión mediante una construcción denominada cast, que tiene la forma: 
 
     (tipo) expresión
+
+Ejemplo de conversión explícita
+    
+    // Conversión explícita (cast)
+    byte bDato = 0; short sDato = 0; int iDato = 0; long lDato = 0; float fDato = 0; double dDato = 2;
+    
+    fDato = (float)dDato;
+    lDato = (long)fDato;
+    iDato = (int)lDato;
+    sDato = (short)iDato;
+    bDato = (byte)(sDato + iDato - lDato * fDato / dDato);
+    System.outprintln(bDato); 
+    // resultado : 2
+
+
 
 ## Arreglos
 
