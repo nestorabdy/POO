@@ -8,6 +8,26 @@ El alumno aplicará las técnicas y herramientas de la programación orientada a
 ### Identificadores
 **Una variable** representa un espacio de memoria para almacenar un valor de un determinado tipo, valor que puede ser modificado a lo largo de la ejecución del bloque donde la variable es accesible, tantas veces como se necesite. La declaración de una variable consiste en **identificarla** y asociarle un tipo.
 
+Al elegir el identificador para declarar una variable, hay que considerar que el compilador Java trata las letras mayúsculas y minúsculas como caracteres diferentes. 
+
+| Por ejemplo las variables **dato1** y **Dato1** son diferentes. 
+
+Respecto al tipo de una variable, dependera del tipo de valor que vaya a almacenar.
+
+    // Declaración de variables
+    
+    public class  identificadores
+    {
+    // Clase para declarar variables
+    public static void main( String args[] )
+    	{
+    	float a = 0;
+    	int cadena = 5;
+    	double = 1.0;
+    	} // fin del método main
+    
+     } // fin de la clase identificadores
+
 ### Palabras reservadas
 
 En el lenguaje de programación Java, una **palabra reservada** es cualquiera de las 50 palabras exlusivas que tienen un significado predefinido en el lenguaje; debido a esto, no se pueden usar palabras reservadas como nombres para variables, métodos, clases o como cualquier otro identificador.
@@ -39,9 +59,8 @@ Un comentario que comienza con **//** se llama **comentario de fin de línea** (
     Tradicional. Puede
     dividirse en muchas líneas */
 
-### Descripción de una clase
+### Descripción de una clases y objetos
 
-### Descripción de un objeto
 
  
 ## Tipos de datos
