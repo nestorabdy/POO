@@ -10,7 +10,7 @@ El alumno aplicará las técnicas y herramientas de la programación orientada a
 
 Al elegir el identificador para declarar una variable, hay que considerar que el compilador Java trata las letras mayúsculas y minúsculas como caracteres diferentes. 
 
-| Por ejemplo las variables **dato1** y **Dato1** son diferentes. 
+> Por ejemplo las variables **dato1** y **Dato1** son diferentes. 
 
 Respecto al tipo de una variable, dependera del tipo de valor que vaya a almacenar.
 
