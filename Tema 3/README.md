@@ -6,6 +6,13 @@ El alumno aplicará las técnicas y herramientas de la programación orientada a
 ## Generalidades
 
 ### Identificadores
+
+Los identificadores son nombres dados a tipos, literales, variables, clases, interfaces, métodos, paquetes y sentencias de un programa. La sintaxis para formar un identificador es la siguiente:
+
+> {letra|_|$}[{letra|dígito|_|$}]... 
+
+Un identificador consta de uno o más caracteres  y que el primer carácter debe ser una letra, el carácter de subrayado o el carácter dólar ($). No pueden comenzar por un dígito ni pueden contener caracteres especiales
+
 **Una variable** representa un espacio de memoria para almacenar un valor de un determinado tipo, valor que puede ser modificado a lo largo de la ejecución del bloque donde la variable es accesible, tantas veces como se necesite. La declaración de una variable consiste en **identificarla** y asociarle un tipo.
 
 Al elegir el identificador para declarar una variable, hay que considerar que el compilador Java trata las letras mayúsculas y minúsculas como caracteres diferentes. 
