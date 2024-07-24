@@ -26,18 +26,19 @@ Definición de la superclase
 
 Comienza definiendo una clase base, también llamada superclase, que contiene los atributos y métodos comunes que deseas compartir con las clases derivadas.
 
-  public class Animal {
-      String nombre;
-      public void comer() {
-         System.out.println("El animal está comiendo.");
+      public class Animal {
+        String nombre;
+          public void comer() {
+             System.out.println("El animal está comiendo.");
+          }
       }
-  }
+  
 -Creación de la clase derivada
 
 Luego, crea una nueva clase que herede de la clase base usando la palabra clave *extends*.
 
-  public class Perro extends Animal {
-      public void ladrar() {
-          System.out.println("El perro está ladrando.");
+      public class Perro extends Animal {
+          public void ladrar() {
+              System.out.println("El perro está ladrando.");
+          }
       }
-  }
