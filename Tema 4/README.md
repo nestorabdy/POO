@@ -58,7 +58,8 @@ En la programación, esto se traduce en la habilidad de una clase para implement
 
 El polimorfismo es un concepto importante en la Programación Orientada a Objetos (POO) que permite que los objetos de diferentes clases respondan a un mismo mensaje de manera específica para cada uno. En Java, el polimorfismo se logra mediante el uso de herencia y la implementación de interfaces.
 
-- Crear una clase base 
+- Crear una clase base
+
 Debes tener una clase base o una interfaz que defina los métodos que deseas que las clases derivadas implementen de manera específica. Por ejemplo:
 
       public interface Animal {
@@ -69,11 +70,11 @@ Debes tener una clase base o una interfaz que defina los métodos que deseas que
 
 Luego, crea clases concretas que implementen la interfaz o hereden de la clase base. Cada una de estas clases debe proporcionar su propia implementación del método definido en la interfaz o clase base.
 
- public class Perro implements Animal {
-    public void hacerSonido() {
-        System.out.println("El perro ladra.");
-    }
-}
+       public class Perro implements Animal {
+          public void hacerSonido() {
+              System.out.println("El perro ladra.");
+          }
+      }
 
     public class Gato implements Animal {
         public void hacerSonido() {
@@ -104,6 +105,7 @@ Un **constructor** es un método especial que se llama automáticamente cuando s
 Los constructores son fundamentales para inicializar y configurar un objeto de forma apropiada. Pueden recibir parámetros que permiten pasar valores iniciales al objeto durante su creación.
 
 ### Tipos de constructores en Java
+
 En Java, hay varios tipos de constructores que puedes utilizar según tus necesidades.
 
 **Constructor por defecto**
@@ -146,6 +148,7 @@ Toma un objeto del mismo tipo como parámetro y crea un nuevo objeto con los mis
     }
     
 **Constructor privado**
+
 Se usa generalmente para evitar que se instancie la clase directamente y forzar la creación de objetos a través de métodos de fábrica u otros mecanismos de creación controlada.
 
     public class Singleton {
@@ -165,6 +168,7 @@ Se usa generalmente para evitar que se instancie la clase directamente y forzar 
     
 
 ### Cómo crear construtores en Java
+
 Para crear constructores en Java, sigue estos pasos básicos:
 
  1. Decide qué atributos inicializará el constructor 
@@ -183,8 +187,11 @@ Un ejemplo común de encapsulación en Java es tener atributos privados y propor
 Para lograr la encapsulación en Java, se utilizan modificadores de acceso, como *public*, *private* y *protected*, para determinar qué partes del código pueden acceder y modificar los atributos y métodos de una clase.
 
 **Public**: Los miembros (atributos y métodos) marcados como públicos son accesibles desde cualquier parte del programa. No existen restricciónes en su acceso.
+
 **Private**: Los miembros marcados como privados solo son accesibles dentro de la misma clase. Otros objetos o clases no pueden acceder directamente a ellos.
+
 **Protected**: Los miembros marcados como protegidos son accesibles dentro del mismo paquete y también por clases derivadas (herencia) fuera del paquete.
+
 A través del encapsulamiento, se puede lograr la inmutabilidad de ciertos atributos de una clase. Al marcar un atributo como privado y proporcionar solo un método de lectura (get), se evita que dicho atributo sea modificado accidental o intencionalmente desde fuera de la clase.
 
 Ventajas del encapsulamiento en Java
