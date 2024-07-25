@@ -250,3 +250,55 @@ Ejemplos prácticos con encapsulamiento
               System.out.println("Nueva edad: " + persona.getEdad());
           }
       }
+
+## Interfaces
+
+Una **interfaz** Java es un dispositivo que permite interactuar a objetos no relacionados entre sí. Las interfaces Java en realidad definen un conjunto de mensajes que se puede aplicar a muchas clases de objetos, a los que cada una de ellas debe responder de forma adecuada. Por eso, una interfaz recibe también el nombre de protocolo.
+
+Una interfaz consta de dos partes: el nombre de la interfaz precedido por la palabra reservada interface y el cuerpo de la interfaz encerrado entre llaves. Esto es:
+
+   [public] interface nombre_interfaz extends superinterfaz
+   {
+         cuerpo de la interfaz
+   }
+
+El cuerpo de la interfaz puede incluir declaraciones de constantes y declaraciones de métodos. La palabra clave extends significa que se está definiendo una interfaz que es una extensión de otras; también se puede decir que es una interfaz derivada de otras; estas otras se especifican a continuación de extends separadas por comas. Como habrá observado, a diferencia de las clases, una interfaz puede derivarse de más de una superinterfaz.
+
+### Ventajas de las interfaces
+
+Una interfaz se utiliza para definir un protocolo de conducta que puede ser implementado por cualquier clase en una jerarquía de clases. La utilidad que esto pueda tener puede resumirse en los puntos siguientes: 
+
+- Captar similitudes entre clases no relacionadas sin forzar entre ellas una relación artificial. Una acción de este tipo permitiría, incluso, definir una matriz de objetos de esas clases y aplicar, si fuera necesario, la definición de polimorfismo.
+- Declarar métodos que una o más clases deben implementar en determinadas situaciones.
+- Orden: declarar interfaces que más tarde serán heredadas por una o varias clases permiten estructurar ordenadamente el código. 
+- Simplificar: declarar un objeto sin especificar lo que debe hacer, esto es, la abstracción, permite simplificar el diseño de una aplicación.
+- Flexibilidad: las interfaces permiten el polimorfismo, es decir, que objetos similares pueden implementar una misma interfaz. Esto ofrece una gran flexibilidad.
+- Herencia: a diferencia de las clases, las interfaces permiten la herencia múltiple, lo que ofrece una gran flexibilidad a los diseñadores. 
+- Relación entre clases: se pueden establecer relaciones entre clases de manera sencilla, algo que facilita la lógica del programa. 
+- Reutilización del código: las interfaces pueden ser implementadas por diferentes clases, evitando así la redundancia y habilitando la reutilización de código.
+
+### Implementación
+
+
+En un videojuego de carreras, cada jugador puede diseñar su propio coche desde cero. Sin embargo, para que todos puedan competir de una forma justa, los coches deben seguir las mismas reglas.
+
+Gracias a las interfaces de Java, es posible diseñar un modelo de coche que sirva de base para diseñar otros coches. Por ejemplo, todos tendrán una matrícula y podrán arrancar y detenerse. Veamos cómo se traduce esto en código Java. 
+
+
+      public interface Vehiculo {
+        public String matricula = "";
+        public void arrancar();
+        public void detener();
+      }
+
+
+Como ves, tan solo se trata de una clase declarativa que ofrece una plantilla para que cada jugador pueda diseñar su propio coche. Todos los coches tendrán la misma estructura, pero no todos funcionarán de la misma forma, ya que, además de tener una matrícula distinta, puede que un vehículo arranque en 1 segundo, mientras que otro lo haga en 0,5 segundos, dependiendo de la implementación realizada. 
+
+      public class Coche implements Vehiculo {
+        public void arrancar() {
+          System.out.println("arrancando motor...");
+        }
+        public void detener() {
+          System.out.println("deteniendo motor...");
+        }
+      }
