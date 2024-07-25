@@ -107,6 +107,7 @@ Los constructores son fundamentales para inicializar y configurar un objeto de f
 En Java, hay varios tipos de constructores que puedes utilizar según tus necesidades.
 
 **Constructor por defecto**
+
 No toma ningún parámetro. Si no defines ningún constructor en tu clase, Java proporciona un constructor por defecto sin argumentos automáticamente.
 
     public class Persona {
@@ -117,6 +118,7 @@ No toma ningún parámetro. Si no defines ningún constructor en tu clase, Java 
     }
     
 **Constructor con parámetros**
+
 Toma uno o más parámetros. Este tipo de constructor te permite inicializar los atributos de la clase con valores específicos durante la creación del objeto.
 
     public class Persona {
