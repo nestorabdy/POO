@@ -54,7 +54,7 @@ En la programación, esto se traduce en la habilidad de una clase para implement
 - **Permite la expansión de funcionalidades**: Se pueden agregar nuevas clases que implementen una interfaz o hereden de una clase base abstracta existente. Esto significa que puedes expandir la funcionalidad del programa sin modificar el código existente.
 - **Fomenta la desacoplación y la modularidad**: Al utilizar interfaces y clases abstractas, el código se vuelve menos dependiente de implementaciones concretas. Esto promueve una menor interconexión entre componentes, lo que conduce a sistemas más modulares y desacoplados.
 
-**Implementacion**
+**Implementación**
 
 El polimorfismo es un concepto importante en la Programación Orientada a Objetos (POO) que permite que los objetos de diferentes clases respondan a un mismo mensaje de manera específica para cada uno. En Java, el polimorfismo se logra mediante el uso de herencia y la implementación de interfaces.
 
