@@ -20,10 +20,10 @@ Para excentar acreditar con 7
 
 ## :bookmark_tabs: Temas del curso
 - [`Tema 1` El paradigma orientado a objetos ](./Tema%201/README.md)
-- [`Tema 2` UML ](./Postwork%2002)
-- [`Tema 3` Tipos, expresiones y control de flujo](./Postwork%2003)
-- [`Tema 4` Herencia y polimorfismo](./Postwork%2004)
-- [`Tema 5` Manejo de exepciones y errores](./Postwork%2005)
-- [`Tema 6` Flujo de entrada y salida](./Postwork%2006)
-- [`Tema 7` Programación de hilos](./Postwork%2007)
-- [`Tema 8` Introducción a patrones](./Postwork%2008)
+- [`Tema 2` UML ](./Tema%202/README.md)
+- [`Tema 3` Tipos, expresiones y control de flujo](./Tema%203/README.md)
+- [`Tema 4` Herencia y polimorfismo](./Tema%204/README.md)
+- [`Tema 5` Manejo de exepciones y errores](./Tema%205/README.md)
+- [`Tema 6` Flujo de entrada y salida](./Tema%206/README.md)
+- [`Tema 7` Programación de hilos](./Tema%207/README.md)
+- [`Tema 8` Introducción a patrones](./Tema%208/README.md)
