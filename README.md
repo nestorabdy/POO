@@ -8,6 +8,7 @@ El alumno construirá programas con el paradigma orientado a objetos, así como 
 para apoyar el diseño de software y bibliotecas reusables, empleando un enfoque de pruebas sistemático.
 
 ## :pencil: Evaluación
+
 - 30%  --> 3 Exámenes
 - 30%  --> Proyecto
 - 20%  --> Tareas
@@ -16,9 +17,6 @@ para apoyar el diseño de software y bibliotecas reusables, empleando un enfoque
 - Asistencia*  1pto extra
 
 Para excentar acreditar con 7
-
-![image](https://github.com/user-attachments/assets/039ab238-95fc-41ed-b281-385766822b70)
-
 
 ## :bookmark_tabs: Temas del curso
 - [`Tema 1` El paradigma orientado a objetos ](./Tema%1)
