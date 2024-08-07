@@ -19,7 +19,7 @@ para apoyar el diseño de software y bibliotecas reusables, empleando un enfoque
 Para excentar acreditar con 7
 
 ## :bookmark_tabs: Temas del curso
-- [`Tema 1` El paradigma orientado a objetos ](./Tema%1/README.md)
+- [`Tema 1` El paradigma orientado a objetos ](./Tema%201)
 - [`Tema 2` UML ](./Postwork%2002)
 - [`Tema 3` Tipos, expresiones y control de flujo](./Postwork%2003)
 - [`Tema 4` Herencia y polimorfismo](./Postwork%2004)
