@@ -27,3 +27,5 @@ Para excentar acreditar con 7
 - [`Tema 6` Flujo de entrada y salida](./Tema%206/README.md)
 - [`Tema 7` Programación de hilos](./Tema%207/README.md)
 - [`Tema 8` Introducción a patrones](./Tema%208/README.md)
+
+[`Programa de la asignatura`](./Programación%20Orientada%20a%20Objetos.pdf)
