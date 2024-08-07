@@ -12,7 +12,7 @@ para apoyar el diseño de software y bibliotecas reusables, empleando un enfoque
 - 30%  --> Proyecto
 - 20%  --> Tareas
 - 15%  --> Laboratorio
-- 5%   --> Participación 5 	
+- 5%   --> Participación
 - Asistencia*  1pto extra
 
 Para excentar acreditar con 7
